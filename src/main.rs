@@ -1,6 +1,7 @@
 use aoc_2022::{
     day01::{day1a, day1b},
     day02::{day2a, day2b},
+    day03::{day3a, day3b},
 };
 
 fn main() {
@@ -12,7 +13,9 @@ fn main() {
         "day1b" => day1b(),
         "day2a" => day2a(),
         "day2b" => day2b(),
-        _ => day2b(),
+        "day3a" => day3a(),
+        "day3b" => day3b(),
+        _ => day3a(),
         // _ => "Not yet solved".to_string(),
     };
     println!("{result}");

@@ -15,7 +15,7 @@ fn main() {
         "day2b" => day2b(),
         "day3a" => day3a(),
         "day3b" => day3b(),
-        _ => day3a(),
+        _ => day3b(),
         // _ => "Not yet solved".to_string(),
     };
     println!("{result}");
